@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'; // ES6
 
-import ErrorMessage from '../errorMessage/errorMessage';
-import Spinner from '../spinner/spinner';
+import ErrorMessage from '../errorMessage/ErrorMessage';
+import Spinner from '../spinner/Spinner';
 import useMarvelService from '../../services/MarvelService';
 import Skeleton from '../skeleton/Skeleton'
 import './charInfo.scss';
